@@ -59,26 +59,26 @@
 
 The NOT gate is the simplest because it has only one input signal. The NOT gate takes that input signal and outputs a signal with the opposite binary state. If the input signal is “on,” a NOT gate outputs an “off” signal. If the input signal is “off,” a NOT gate outputs an “on” signal
 
-![XOR GATE](./IMG/NOT_GATE.png)
+![XOR GATE](./C1_IMG/NOT_GATE.png)
 
 2. AND Gate
 
 The AND gate involves two input signals rather than just one. Having two input signals means there will be four possible combinations of input values. The AND rule outputs an “on” signal only when both the inputs are “on.” Otherwise, the output signal will be “off.”
 
-![AND GATE](./IMG/AND_GATE.png)
+![AND GATE](./C1_IMG/AND_GATE.png)
 
 3. OR Gate
 
 The OR gate involves two input signals. The OR rule outputs an “off” signal only when both the inputs are “off.” Otherwise, the output signal will be “on.”
 
-![OR GATE](./IMG/OR_GATE.png)
+![OR GATE](./C1_IMG/OR_GATE.png)
 
 
 4. XOR Gate
 
 The XOR gate also involves two input signals. The XOR rule outputs an “on” signal when only one (but not both) of the inputs are “on.” Otherwise, the output signal will be “off.”
 
-![XOR GATE](./IMG/XOR_GATE.png)
+![XOR GATE](./C1_IMG/XOR_GATE.png)
 
 5. NAND Gate
 
@@ -86,7 +86,7 @@ The NAND gate involves two input signals. The NAND rule outputs an “off” sig
 
 If you compare the truth tables for the NAND and AND gates, you may notice that the NAND outputs are the opposite of the AND outputs. This is because the NAND rule is just a combination of the AND and NOT rules: it takes the AND output and runs it through the NOT rule! For this reason, you might hear the NAND referred to as a “not-AND” gate.
 
-![NAND GATE](./IMG/NAND_Gate.png)
+![NAND GATE](./C1_IMG/NAND_Gate.png)
 
 6. XNOR Gate
 
@@ -94,7 +94,7 @@ Finally, consider the XNOR gate. It also involves two input signals. The XNOR ru
 
 The XNOR rule is another combination of two earlier rules: it takes the XOR output and runs it through the NOT rule. For this reason, you might hear the XNOR referred to as a “not-XOR” gate.
 
-![XNOR GATE](./IMG/XNOR_GATE.png)
+![XNOR GATE](./C1_IMG/XNOR_GATE.png)
 
 
 ---------------------------------------------------------
@@ -227,7 +227,7 @@ UTF-8: The most prevalent encoding standard used today
 
 * Clock spped: The maximum number of clock cycles that it can handle in a cerain period of time.
 
-![clock cycles](./IMG/The-Clock-Cycle-of-A-CPU-UnicMinds.jpeg)
+![clock cycles](./C1_IMG/The-Clock-Cycle-of-A-CPU-UnicMinds.jpeg)
 
 * For examples: A 3.40 gigahertz is 3.4 billion cycles per second.
 
@@ -280,14 +280,334 @@ As an IT Support professional, you may be asked to overclock a CPU. There are st
         * If the computer freezes or crashes, it has either become completely unstable or the CPU is not getting enough voltage to support the overclocked frequency. Use the BIOS to return to the last stable frequency or increase the voltage in 0.01V increments until stable.
 
     * If stable, reboot the computer before attempting the next increase. 
+
+    * The POST (Power On Self Test) figures out what hardware is on the computer and makes sure it is running properly before the BIOS initializes the hardware or loads up essential drivers.
+
+    * The full form of CMOS in computers is Complementary Metal-Oxide-Semiconductor. It's a type of technology used to build integrated circuits, including the memory chip on your computer's motherboard that stores the BIOS settings.
  
 
 ## Components
 
+#### IT Supports Hardware Jobs
+
+* Replacing failed hard disk.
+* Upgrading RAM modules.
+* Installing Video cards.
+
+#### Examples of Modular CPU manufactures
+
+* Intel
+* AMD 
+* Qualcomm
+* Mediatek
+
+#### Examples of CPU
+
+* Intel Corei7
+* AMD Athlon
+* Snapdragon 810
+* Apple A8
+------------------
+
+* When you select your CPU, you'll need to make sure that it is compatible with yout motherboard - the circuit board that connects all your components together.
+
+* There are mainly two major types of CPU sockets
+    * Land Grid Array(LGA)
+    * Pin Grid Array(PGA)
+
+* An LGA sockets have pins coming out of the motherboard.
+* A PGA sockets have pins coming out of processors itself.
+
+![LGA Sockets](./C1_IMG/LGA_Sockets.png)
+
+Image of LGA socket.
+
+--------------
+
+* There are lots of types of RAM, and the one that is commonly found in our computers is **DRAM** or dynamic random access memory.
+
+* There are also different types of memory sticks that DRAM chips can be put on. The more modern DIMM sticks, which usually stands for Dual Inline Memory Module, have different sizes of pin on them.
+
+* SDRAM stands for Synchronous Dynamic Random Access Memmory. It's a type of computer memory that operates in sync with the system's clock, enabling faster data transfer rates compared to older memory technologies. 
 
 
+* In today's system, we use another type of RAM called  double data rate SDRAM or DDR SDRAM for short.
+
+Iteration of DDR SDRAM
+
+* DDR1
+* DDR2
+* DDR3
+* DDR4
+* DDR5
+
+#### Motherboard 
+
+* Northbridge: Interconnect Ram and Video Cards.
+* Southbridge: Maintains Input/Output(IO) controllers.
+
+* Peripherals: External devices connected to the computers, like a mouse, keyboard, and monitor.
+
+* Expansion slots: Give us the ability to increase the functionality of our computers.
+
+* Form Factor: Determine the amount we can put in and the amount of space we'll have.
+
+* ATX (Advanced Technology Extended) is a motherboard and power supply configuration specification developed by Intel to improve on previous de facto standards like the AT design. 
+* ITX (Information Technology Extended) form factor.Mini-ITX is a 170 mm × 170 mm (6.7 in × 6.7 in) motherboard form factor developed by VIA Technologies in 2001.
+    * Mini-ITX
+    * Nano-ITX
+    * Pico-ITX
+    * Mobile ITX
+
+-----------------------------
+* 8 bits = 1 byte
+* 1024 bytes = 1 kilobyte(KB)
+* 1024 kilobytes = 1 megabyte(MB)
+* 1024 megabytes = 1 gigabyte(GB)
+* 1024 gigabytes = 1 terabyte(TB)
+* 1024 terabytes = 1 petabyte(PB)
+* 1024 petabytes = 1 Exabyte(EB)
+* 1024 exabytes  = 1 Zettabyte(ZB)
+* 1024 Zetabytes = 1 Yottabyte(YB)
+
+Decimal Nomenclature of Storage Space
+![Decimal Nomenclature](./C1_IMG/Data_Storage_measurement_nomenclature.png)
+
+Binary Nomenclature
+![Binary Nomenclature](./C1_IMG/Binary_nomenclature.png)
+
+* The prefixes kibi-, mebi-, gibi, -tebi-. pebi-, exbi-, zebi-, and yobi- were created by the IEC organization. They are a blend of the first two letters of the metric prefix fused with the first two letters of the word “binary” (example: megabyte + binary + byte= mebibyte).
+--------------------------------
 
 
+* A Hard Disk Drive(HDD) is a type of hard drive that stores data by magnetically recording binary bits on iron oxide-coated platters, allowing for permanent storage and random access of information in computers.
+* RPM(Revolution Per Minute): A hard drive with a higher RPM is faster.
+* A solid-state drive (SSD) is a type of solid-state storage device that uses integrated circuits to store data persistently. It is sometimes called semiconductor storage device, solid-state device, or solid-state disk.
+
+* SSDs come in various form factors and interface types, including SATA, PCIe, and NVMe, each offering different levels of performance.
+* Note: ATA stands for Advanced Technology Attachment.
+
+* SATA (Serial ATA): Interface that uses one cable for data transfer.
+  SATA drives are **Hot Swappable**: You don't have to turn off your machine to plug in a SATA Drive.
+
+* PCI Express (Peripheral Component Interconnect Express), officially abbreviated as PCIe, is a high-speed standard used to connect hardware components inside computers. It is designed to replace older expansion bus standards such as PCI, PCI-X and AGP. Developed and maintained by the PCI-SIG (PCI Special Interest Group), PCIe is commonly used to connect graphics cards, sound cards, Wi-Fi and Ethernet adapters, and storage devices such as solid-state drives and hard disk drives.
+
+* Compared to earlier standards, PCIe supports faster data transfer, uses fewer pins, takes up less space, and allows devices to be added or removed while the computer is running (hot swapping). It also includes better error detection and supports newer features like I/O virtualization for advanced computing needs.
+
+* NVM Express (NVMe) or Non-Volatile Memory Host Controller Interface Specification  (NVMHCIS) is an open, logical-device interface specification for accessing a computer's non-volatile storage media usually attached via the PCI Express bus. The initial NVM stands for non-volatile memory, which is often NAND flash memory that comes in several physical form factors, including solid-state drives (SSDs), PCIe add-in cards, and M.2 cards, the successor to mSATA cards. NVM Express, as a logical-device interface, has been designed to capitalize on the low latency and internal parallelism of solid-state storage devices.
+
+------------------------------
+
+* SATA (Serial AT Attachment) is a computer bus interface that connects host bus adapters to mass storage devices such as hard disk drives, optical drives, and solid-state drives. 
+#### Power Supply
+
+* As a general rule, be sure to use proper voltage for your electronics.
+
+* Wattage: The amounts of volts and amps that a device needs.
+* You can power most basic desktops with a 500W power supply.
+
+* As you learned in a previous video, computer systems require a direct current (DC) of electricity to operate. However, power companies deliver electricity in alternating currents (AC). AC power can damage the internal components of a computer. To solve this problem, computer power supplies are used to convert the AC from the wall socket to DC. Power supplies also reduce the voltage delivered to the computer’s internal components.
+
+![Power Supply](./C1_IMG/Power_Supply.png)
+
+![Voltage and Pin Connectors](./C1_IMG/Voltage_and_Pin_Connector.png)
+
+-----------------------
+
+#### Mobile Devices
+
+* System on a Chip(SoC): Packs of CPU, RAM , and Sometimes event the storage onto a single chip.
+* BYOD: Bring Your Own Device.
+
+* Charge Cycle: One full Charge and discharge of a battery.
+
+
+#### Connectors
+
+* USB stands for Universal Serial Bus.
+
+* Iteration of USB
+    * USB 2.0 -  Transfer speed of 480 Mb/s (60 MB/s)
+    * USB 3.0 - Transfer speed of 5 Gb/s    (625 MB/s)
+    * USB 3.1 - Transfer speed of 10 Gb/s
+
+* MB is megabyte or unit of data storage, while Mb/s is a megabit per second, which is the unit of data transfer.
+* Inductive charging (also known as wireless charging or cordless charging) is a type of wireless power transfer. It uses electromagnetic induction to provide electricity to portable devices. Inductive charging is also used in vehicles, power tools, electric toothbrushes, and medical devices. The portable equipment can be placed near a charging station or inductive pad without needing to be precisely aligned or make electrical contact with a dock or plug.
+
+* Remember 1 byte is 8 bit, to transfer a file of 1 MB in a second, you need a connection speed of 8 Mb/s.  
+
+* USB Connectors: USB connectors transfer data and power to devices connected to a computer. USB connectors are the most popular connectors for all types of peripherals.
+
+![USB Connectors](./C1_IMG/USB_Connectors.png)
+
+* There are three generations of USB type A connectors in use today: USB 2.0, 3.0, and 3.1. Here are the differences between the three generations:
+
+    * USB 2.0: Black port on the computer, 480 Mbps transfer speed
+    * USB 3.0: Blue port on computer, 5 Gbps transfer speed
+    * USB 3.1: Teal port on the computer, 10 Gbps transfer speed
+
+* USB ports are backwards compatible, meaning a USB port can connect any of the three generations of USB type A connectors. The connected cable will determine the speed of data transfer. Connecting a USB 3 to a USB 2 port will result in 480 megabits (Mbps) per second of speed.
+
+* Micro USB, USB-C, USB4 (Thunderbolt), and Lightning Ports are smaller connectors that carry more power than older USB connectors and have faster data transfer speeds. These connectors are used for devices like smartphones, laptops, and tablets.
+
+![Micro USB](./C1_IMG/Micro-USB-Type-C.png)
+
+* Micro USB is a small USB port found on many non-Apple cellphones, tablets, and other portable devices. 
+
+* USB-C is the newest reversible connector with either end having the same build. USB-C cables replace traditional USB connectors since they can carry significantly more power and transfer data at 20 Gbps.  
+
+* USB4 uses Thunderbolt 3 protocol and USB-C cables to transfer data at speeds of 40 Gbps and provide power as well. 
+
+* Lightning Port is a connector exclusive to Apple that is similar to USB-C. It is used for charging and connecting devices to computers, external monitors, cameras and other peripherals.
+
+* Different cable connectors are used to share information between devices and connect to the internet. IT professionals maintain network systems that use different types of communication connectors. 
+
+![Cable Connectors](./C1_IMG/Cable_connectors.png)
+
+* Plain Old Telephone Service (POTS) refers to cables transmitting voice through twisted copper pair wires. Landline telephones, dial-up internet, and alarm systems use POTS. The RJ-11 (Register Jack 11) connector is used for POTS.
+
+* Digital Subscriber Line (DSL) provides access to high-speed networks or the internet through telephone lines and a modem. The RJ-45 connects a computer to network elements and is mostly used with ethernet cables. 
+
+* Cable Internet uses a cable TV infrastructure and a modem to provide high-speed internet access to users. An F type connector is commonly used with cable modems. 
+
+* Fiber-optic cables contain strands of glass fibers inside an insulated casing that send data long-distance and allow for higher-bandwidth communication. The major internet providers use fiber-optic cables for high-speed internet service. 
+
+* Device Connectors: IT professionals will encounter legacy devices that still use older connectors such as DB89 and Molex.
+
+![Device Connectors](./C1_IMG/Device_Connectors.png)
+
+* DB89 connectors are used for older peripherals like keyboards, mice, and joysticks. An IT professional may still encounter a DB89 connector for external tools a computer uses and should recognize the cable to connect to the appropriate port.
+
+* Molex connectors provide power to drives or devices inside the computer. Molex connectors are used for connecting a hard drive, disc drive (CD-ROM, DVD, Blu-ray), or a video card. 
+
+* Punch Down Blocks: A punch down block is a terminal strip used to connect telephone or data lines. Punch down blocks are a quick and easy way to connect wiring. IT professionals use punch down blocks to change a wire or make a new connection for a telephone system or Local Area Network (LAN).
+
+![Punch Down Block](./C1_IMG/Punch_Down_Block.png)
+
+
+#### BIOS (Basics Input Output Services)
+
+* Software that helps initialize the hardware and gets out operating system up and running.
+
+* The BIOS is firmware that initializes hardware (like the CPU, RAM, and storage) when you turn on your computer and provides the basic instructions for the operating system to load. It acts like a bridge between the hardware and software.
+
+##### Why ROM?
+
+* The BIOS is stored on a ROM chip because ROM is non-volatile, meaning it retains data even when the computer is powered off. This ensures the BIOS is always available to start the system.
+* Traditionally, ROM was truly "read-only," but modern BIOS chips use EEPROM(Electrically Erasable Programmable ROM) or flash memory, which allow updates (like flashing a new BIOS version) while still being non-volatile.
+
+##### Where is the ROM Chip?
+
+* The ROM chip is physically located on the motherboard, often a small chip labeled with the BIOS manufacturer (e.g., AMI, Award, or Phoenix). It’s usually near the edge of the motherboard or close to other critical components.
+
+#### How Does the BIOS Work?
+
+1. Power-On Self-Test (POST):
+    * The BIOS runs a quick check to ensure hardware (CPU, RAM, keyboard, etc.) is working. If something’s wrong (e.g., no RAM), it might beep or show an error.
+    * This step uses the low DC voltages (e.g., 1.1V for CPU, 3.3V for motherboard circuits) provided by the power supply or laptop adapter, as you asked about earlier.
+
+2. Initialize Hardware:
+    * The BIOS sets up the CPU, RAM, and other components with basic instructions, like telling the CPU how fast to run or the RAM how to communicate.
+    * It ensures all components get the correct low voltages (e.g., 1.2V for DDR4 RAM) to operate safely, avoiding the high-voltage AC damage you asked about with laptops.
+
+3. Find the Operating System:
+    * The BIOS looks for a bootable device (like your SSD or HDD) and hands control to the operating system’s bootloader.
+    * It uses a boot order (set in the BIOS menu) to decide whether to boot from a hard drive, USB, or network.
+
+4. Provide Basic Communication:
+    * The BIOS offers a basic interface for the operating system to talk to hardware, like reading from a keyboard or writing to a screen, until the OS loads its own drivers.
+
+##### Why Does the BIOS Matter?
+
+The BIOS is critical because it’s the first step in making your computer work. Without it:
+* The CPU wouldn’t know how to start.
+* The RAM wouldn’t initialize.
+* The operating system couldn’t load.It’s like a conductor starting an orchestra—it gets all the hardware playing together.
+
+![Voltage Comparison](./C1_IMG/chart.png)
+
+#### UEFI
+
+* UEFI is the modern replacement for BIOS. Like BIOS, it’s firmware stored on a ROM chip (usually EEPROM or flash memory) on the motherboard. Its job is to initialize hardware and load the operating system when you turn on your computer, but it’s more advanced, flexible, and powerful than traditional BIOS.
+* Think of BIOS as a basic flip phone and UEFI as a smartphone—both get the job done, but UEFI does it faster, with more features, and a better interface.
+
+#### Why Did UEFI Replace BIOS?
+BIOS was designed in the 1970s for simple PCs, but modern computers need more:
+
+* Larger Storage: BIOS couldn’t handle drives over 2TB, while UEFI supports massive drives.
+* Faster Systems: UEFI’s parallel initialization speeds up booting, critical for modern SSDs and NVMe drives.
+* Security: Secure Boot protects against malware, which BIOS couldn’t do.
+* Flexibility: UEFI supports complex setups like multi-OS environments or network booting.
+
+![BIOS Vs UEFI](./C1_IMG/BIOS_vs_UEFI.png)
+
+Notes on the Chart:
+
+* Boot Speed: UEFI is ~3x faster (arbitrary scale for simplicity).
+* Max Drive Size: BIOS supports up to 2TB; UEFI supports ~9 million TB (9 zettabytes).
+* Security: UEFI’s Secure Boot and other features score higher (5 vs. 1 on a relative scale).
+
+* Disk Image: Copy of an operating system.
+* Reimaging: Wiping and installing an operating system.
+
+* Standoffs are used to raise and attach your motherboard to the case.
+
+* Molex: A molex is a component connector.
+
+* Make sure to connect the SATA power plug to the SSD.
+
+#### Mobile Device Repair
+
+* Factory reset: Removes all data, apps and customizations from the device.
+
+Steps to take care while repairing mobile devices
+
+* Protect against static discharge.
+* Use the right tool.
+* Keep parts organized and labeled. Taking pictures along the way can help a lot, too
+* Follow Vendor documentation
+* Test the device to make sure it works.
+
+#### Mobile Display Types
+
+* The top two technologies used in mobile system displays are 
+    1. Liquid Crystal Display (LCD) 
+    2. Light Emitting Diodes (LED)
+
+##### Liquid Crystal Display (LCD) 
+
+* LCDs use liquid crystal technology. Liquid crystals have the properties of both a liquid and a solid. The crystals can be aligned in a variety of patterns and manipulated with electricity.
+* How the liquid crystals are arranged and manipulated inside display panels affects refresh rates, image quality, and display performance.
+* LCDs require backlighting, often provided by LEDs. Displays that need backlighting are also called non-emissive or passive displays.
+* The backlighting unit (BLU) requires extra space, which makes LCD panels thicker and less flexible than other displays. Polarizers on either side of the liquid crystal layer control the path of the backlight to ensure the light is aimed toward the user.
+
+* The following are common LCD display types used for mobile devices: 
+
+    1. In-Plane Switching (IPS) 
+    1. Twisted Nematic (TN)
+    1. VA-Vertical Alignment
+
+[Mobile Display Type](https://www.coursera.org/learn/technical-support-fundamentals/supplement/CEavl/mobile-display-types)
+
+
+##### Organic Light Emitting Diodes (OLED)
+
+* OLEDs are diodes that emit light using organic (carbon-based) materials when electricity is passed through the diodes. Displays that are able to convert electricity into light are called emissive or active displays. 
+
+* How it works: The basic structure of an OLED display consists of an emissive layer placed between a cathode (which injects electrons) and an anode (which removes electrons). Electricity enters through the cathode layer, passes into the emissive layer and conductive layer to create light, then out through the anode layer.
+
+##### Active Matrix Organic Light Emitting Diode (AMOLED)
+* Active Matrix Organic Light Emitting Diode (AMOLED) and Super AMOLED are recent technologies used in smartphone displays. 
+
+* How it works: AMOLED displays are a type of OLED panel that uses active matrix technology. Active-matrix displays have active capacitors arranged in a matrix with thin film transistors (TFTs). This technology enables the control of each individual pixel for rapid state changes, including changing brightness and color. AMOLEDs have touchscreen functions integrated into the screen.
+
+##### Inorganic mini-LEDs (mLEDs) 
+* How it works: Mini-LED displays work the same way that OLED displays work, but the individual LED size is much smaller at approximately 50-60 micrometers.
+
+##### Inorganic micro-LEDs (μLEDs)
+* How it works: Micro-LED displays work the same way that OLED displays work, but the individual LED size is extremely small at 15 micrometers.
+
+[Glossary terms from course 1, module 2](https://www.coursera.org/learn/technical-support-fundamentals/supplement/mZ5qd/glossary-terms-from-course-1-module-2)
 
 
 
