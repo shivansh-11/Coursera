@@ -1,5 +1,7 @@
 # Course 1: Technical Support Fundamentals
 
+## Module 1: Introduction to IT
+
 * Information Technology(IT): The use of digital technology, like computers and the internet, to store and process data into useful information.
 
 * Use of IT
@@ -202,6 +204,9 @@ RGB model: RGB or red, green, and blue model is the basic model of representing 
 
 UTF-8: The most prevalent encoding standard used today
 
+
+## Module 2: Hardware
+
 ## The Modern Computer
 
 * Ports: Connection points that we connect devices to that extend the functionality of out computer.
@@ -225,7 +230,7 @@ UTF-8: The most prevalent encoding standard used today
     
 * A "clock wire" in a computer's CPU refers to a wire that carries a clock signal, a periodic pulse that synchronizes the actions of different components within the CPU. This signal dictates when components should update their state, ensuring they operate in unison and that data is processed correctly. Without this clock signal, the CPU's components would not be able to coordinate and would not be able to function.
 
-* Clock spped: The maximum number of clock cycles that it can handle in a cerain period of time.
+* Clock speed: The maximum number of clock cycles that it can handle in a cerain period of time.
 
 ![clock cycles](./C1_IMG/The-Clock-Cycle-of-A-CPU-UnicMinds.jpeg)
 
@@ -252,7 +257,7 @@ Overclocking a CPU’s frequency involves three variables:
 
 * The base CPU clock frequency, often measured in GHz.
 * The core frequency, which is calculated by multiplying the base frequency by the CPU core multipliers. 
-* The core voltageF, which needs to be increased in small increments to meet the increasing power demand of the CPU during the overclocking process.
+* The core voltage, which needs to be increased in small increments to meet the increasing power demand of the CPU during the overclocking process.
 
 #### Warnings on overclocking
 
@@ -610,8 +615,69 @@ Steps to take care while repairing mobile devices
 [Glossary terms from course 1, module 2](https://www.coursera.org/learn/technical-support-fundamentals/supplement/mZ5qd/glossary-terms-from-course-1-module-2)
 
 
+## Module 3: Operating System
+
+* Operating System: The whole package that manages out computer's resources and lets us interact with it.
+* Operating Systemm is made of minly two parts:
+    1. User Space
+    2. Kernel Space
 
 
+![OS Parts](./C1_IMG/Parts_Of_OS.png)
+
+* List of Major Operating System
+    * Windows 
+    * Mac
+    * Linux
+    * Chrome OS
+
+* Our kernal optimizes **memory usage** and makes sure that out applications have enough memory to run. 
+
+* I/O management: Anything that can give us input, or that we can use for output of data.
+
+##### Basics Function of Kernel
+
+
+* File management
+* Process management
+* Memory management
+* I/O management
+
+##### File management
+
+![File Handling](./C1_IMG/File_Handling.png)
+
+* NTFS, which stands for New Technology File System, is a file system developed by Microsoft and is the default file system for modern Windows operating systems. It offers several advantages over older file systems like FAT, including better performance, increased reliability, and support for larger storage devices and files. 
+
+* Advantages of NTFE
+    * Encryption
+    * Faster access speeds
+    * Security
+
+* We write data to our hard drive in the form of data blocks.
+
+* Block Storage improves faster handling of data because data isn't stored as one long piece and can be accessed quicker.
+
+* Metadata store the information about File.
+
+![MetaData](./C1_IMG/Metadata.png)
+
+* File extention: The appended part of file name that tells us what type of file it is in certain operating systems.
+
+##### Process Management 
+
+* Process: A program that's executing, like our internet browser or text editor.
+* Program: An application that can run, like chrome.
+
+* Time Slice: A very short interval of time that gets allocated to a process for CPU execution.
+
+![Time slice](./C1_IMG/Time_slice.png)
+
+* Kernel: Created processes, efficiently schedules them, and manages how the processes are terminated.
+
+* Virtual memory is a memory management technique that provides the illusion of a larger memory space than the actual physical RAM available. It allows a computer to run programs larger than the physical memory by using a portion of the hard drive as an extension of RAM. This technique is crucial for multitasking and running large applications efficiently. 
+
+![Virtual Memory](./C1_IMG/Virtual_Memory.png)
 
 
 
