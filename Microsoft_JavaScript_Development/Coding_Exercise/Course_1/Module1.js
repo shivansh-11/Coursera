@@ -29,3 +29,7 @@ let playerName = "";
 const readline = require("readline-sync");
 playerName = readline.question("Enter your name: ");
 console.log("Welcome to the game, " + playerName + "!");
+
+console.log(typeof userName); // string
+console.log(typeof age); // number
+console.log(typeof isStudent); // boolean
